@@ -1,30 +1,36 @@
 manifestVersion: 1
-id: paperclip
+
+id: wizard-paperclip
+category: automation
 name: Paperclip
-tagline: Open-source orchestration for autonomous AI companies
-category: ai
-version: "2026.403.0"
-port: 8860
+version: "2026.416.0"
+
+tagline: Open-Source-Orchestrierung für autonome KI-Unternehmen
 description: >-
-  Paperclip lets you run AI agents with roles, budgets, tools, and a shared workspace from one web UI.
-  You can organize work into companies, teams, tickets, and goals, then track what agents did with logs,
-  approvals, and audit history.
+  Paperclip ist eine self-hosted Plattform, die ein Team von KI-Agenten
+  orchestriert, um ein Unternehmen zu betreiben. Du kannst eigene Agenten
+  (Claude, Codex, Cursor u.a.) einbinden, Ziele definieren und Arbeit
+  sowie Kosten über ein zentrales Dashboard verwalten. Mit Organigrammen,
+  Budgets, Governance und Ticket-System – alles bequem im Browser auf
+  deinem Umbrel-Server.
 
-  This Umbrel package uses Paperclip's embedded database, so all data stays inside the app's data directory.
-  On first launch, Paperclip creates a bootstrap invite for the first admin account and saves the invite URL in the app logs.
+releaseNotes: ""
 
-  To do real work, you'll still need to connect your own model providers and agent tools, such as OpenAI,
-  Anthropic, Codex, Claude Code, or other integrations supported by Paperclip.
-developer: PaperclipAI
-website: https://paperclip.ing/
-submitter: aidencole98
-submission: https://github.com/getumbrel/umbrel-apps/pull/5298
+developer: paperclipai
+website: https://paperclip.ing
+dependencies: []
 repo: https://github.com/paperclipai/paperclip
 support: https://github.com/paperclipai/paperclip/issues
+
+port: 3100
+
+icon: "icon.png"
+
 gallery: []
-releaseNotes: ""
-dependencies: []
 path: ""
+
 defaultUsername: ""
 defaultPassword: ""
-deterministicPassword: false
+
+submitter: "taskwiz"
+submission: ""
