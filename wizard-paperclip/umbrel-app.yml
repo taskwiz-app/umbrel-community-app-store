@@ -22,7 +22,7 @@ dependencies: []
 repo: https://github.com/paperclipai/paperclip
 support: https://github.com/paperclipai/paperclip/issues
 
-port: 3100
+port: 8860
 
 icon: "icon.png"
 
